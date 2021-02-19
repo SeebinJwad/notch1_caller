@@ -8,7 +8,7 @@ The mutation caller algorithm behind the notch1 mutation caller website.
 
 *Note: Transitive dependencies are not listed*
 ## Inputs
-This algorithm reads inputs using HGVS Sequence Variant Nomenclature, so please read their documentation. Input structures for substitutions is provided as an example:
+This algorithm reads inputs using [HGVS Sequence Variant Nomenclature](https://varnomen.hgvs.org/), so please read their documentation. Input structures for substitutions is provided as an example:
 > Format: “prefix”“position_substituted”“reference_nucleotide””>”new_nucleotide”, e.g. g.123A>G
 ## Batch Inputs
 Currently, we do not have batch input capability. However, the program will loop following every output, making for a more efficient workflow.
