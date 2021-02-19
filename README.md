@@ -2,7 +2,7 @@
 # NOTCH1 Mutation Caller Algorithm
 The mutation caller algorithm behind the [NOTCH1 Mutation Caller Website](http://notch1.tk/).
 ## Dependencies
-* [re](https://docs.python.org/3/library/re.html) - built in module
+* [re](https://docs.python.org/3/library/re.html) - built-in module
 * [termcolor](https://pypi.org/project/termcolor)
 * [pandas](https://pypi.org/project/pandas)
 
@@ -14,6 +14,12 @@ This algorithm reads inputs using [HGVS Sequence Variant Nomenclature](https://v
 Currently, we do not have batch input capability. However, the program will loop following every output, making for a more efficient workflow.
 ### Outputs
 Here is a table of all output segments:
+
+First Header | Second Header
+------------ | -------------
+Content cell 1 | Content cell 2C
+ontent column 1 | Content column 2
+
 *Note: Only if the mutation's loss-of-function is inactivating (true) and the output is given a high confidence score will the patient be deemed eligible for the NOTCH1 trial.*
 ### Here is the code snippet of potential splice mutation callbacks:
 ```python
