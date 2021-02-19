@@ -4,11 +4,6 @@ The mutation caller algorithm behind the notch1 mutation caller website.
 ## Inputs
 This algorithm reads inputs using HGVS Sequence Variant Nomenclature, so please read their documentation. Input structures for substitutions is provided as an example:
 > Format: “prefix”“position_substituted”“reference_nucleotide””>”new_nucleotide”, e.g. g.123A>G
-> “prefix” = reference sequence used = g.
-> “position_substituted” = position nucleotide sustituted = 123
-> “reference_nucleotide” = nucleotide at reference position = A
-> ”>” = type of change is a substitution = >
-> “new_nucleotide” = substituted nucleotide = G
 ## Batch Inputs
 Currently, we do not have batch input capability. However, the program will loop following every output, making for a more efficient workflow.
 ### Here is the code snippet of potential splice mutation callbacks:
