@@ -1,11 +1,12 @@
+https://img.shields.io/website?down_color=lightgrey&down_message=offline&up_color=green&up_message=online&url=http%3A%2F%2Fnotch1.tk%2F
 # NOTCH1 Mutation Caller Algorithm
 The mutation caller algorithm behind the notch1 mutation caller website.
 ## Dependencies
 * [re](https://docs.python.org/3/library/re.html) - built in module
 * [termcolor](https://pypi.org/project/termcolor)
-* [pandas](https://pypi.org/project/pandas
+* [pandas](https://pypi.org/project/pandas)
 
-*\*Note: Transitive dependencies are not listed*
+*Note: Transitive dependencies are not listed*
 ## Inputs
 This algorithm reads inputs using HGVS Sequence Variant Nomenclature, so please read their documentation. Input structures for substitutions is provided as an example:
 > Format: “prefix”“position_substituted”“reference_nucleotide””>”new_nucleotide”, e.g. g.123A>G
