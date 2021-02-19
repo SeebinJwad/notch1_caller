@@ -13,12 +13,14 @@ This algorithm reads inputs using [HGVS Sequence Variant Nomenclature](https://v
 ## Batch Inputs
 Currently, we do not have batch input capability. However, the program will loop following every output, making for a more efficient workflow.
 ### Outputs
-Here is a table of all output segments:
+Here is a table of all output sections:
 
-First Header | Second Header
+Output Title | Output Values
 ------------ | -------------
-Content cell 1 | Content cell 2C
-ontent column 1 | Content column 2
+Domain | [NOTCH1 Domain Knowledgebase](https://www.uniprot.org/uniprot/P46531#family_and_domains)
+Impact on Function | Inactivating/Activating
+Confidence Score | Low/High
+Eligibility | Eligible/Ineligible
 
 *Note: Only if the mutation's loss-of-function is inactivating (true) and the output is given a high confidence score will the patient be deemed eligible for the NOTCH1 trial.*
 ### Here is the code snippet of potential splice mutation callbacks:
