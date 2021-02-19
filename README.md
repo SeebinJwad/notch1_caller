@@ -1,6 +1,9 @@
 # NOTCH1 Mutation Caller Algorithm
 The mutation caller algorithm behind the notch1 mutation caller website.
 ## Dependencies
+* [re](https://docs.python.org/3/library/re.html) - built in module
+* [termcolor](https://pypi.org/project/termcolor)
+* [pandas](https://pypi.org/project/pandas/)
 ## Inputs
 This algorithm reads inputs using HGVS Sequence Variant Nomenclature, so please read their documentation. Input structures for substitutions is provided as an example:
 > Format: “prefix”“position_substituted”“reference_nucleotide””>”new_nucleotide”, e.g. g.123A>G
