@@ -1,6 +1,8 @@
 # NOTCH1 Mutation Caller Algorithm
-The mutation caller algorithm behind the notch1 mutation caller website.
-
+### The mutation caller algorithm behind the notch1 mutation caller website.
+### Batch Inputs
+Currently, we do not have batch input capability. However, the program will loop following every output, making for a more efficient workflow.
+#### Here is the code snippet of potential splice mutation callbacks:
 ```python
     if '_splice' in check:
         if check[:check.find('_SPLICE')] != str(pos[0]) or len(
