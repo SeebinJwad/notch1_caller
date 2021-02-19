@@ -8,7 +8,7 @@ This algorithm reads inputs using HGVS Sequence Variant Nomenclature, so please 
 > “prefix” = reference sequence used = g.
 > “position_substituted” = position nucleotide sustituted = 123
 > “reference_nucleotide” = nucleotide at reference position = A
-> ”>” = type of change is a substitution = >
+> ”>” = type of change is a substitution =
 > “new_nucleotide” = substituted nucleotide = G
 ## Batch Inputs
 Currently, we do not have batch input capability. However, the program will loop following every output, making for a more efficient workflow.
