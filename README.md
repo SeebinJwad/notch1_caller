@@ -12,6 +12,9 @@ This algorithm reads inputs using [HGVS Sequence Variant Nomenclature](https://v
 > Format: “prefix”“position_substituted”“reference_nucleotide””>”new_nucleotide”, e.g. g.123A>G
 ## Batch Inputs
 Currently, we do not have batch input capability. However, the program will loop following every output, making for a more efficient workflow.
+### Outputs
+Here is a table of all output segments:
+*Note: Only if the mutation's loss-of-function is inactivating (true) and the output is given a high confidence score will the patient be deemed eligible for the NOTCH1 trial.*
 ### Here is the code snippet of potential splice mutation callbacks:
 ```python
     if '_splice' in check:
