@@ -27,7 +27,7 @@ Eligibility | Eligible/Ineligible
 ## NOTCH1 Domain Knowledgebase
 Domains are listed in the [UNIPROT NOTCH1 Database](https://www.uniprot.org/uniprot/P46531#family_and_domains). However, we believe our domain/mutation spectrum is more accurate:
 
-![NOTCH1 Domains](SeebinJwad.github.com/notch1_caller/imgs/notchdomains.jpg)
+![NOTCH1 Domains](../imgs/notchdomains.jpg)
 
 ### Here is the code snippet of potential splice mutation callbacks:
 ```python
