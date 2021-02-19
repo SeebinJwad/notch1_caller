@@ -42,4 +42,4 @@ Domains are listed in the [UNIPROT NOTCH1 Database](https://www.uniprot.org/unip
     if len(pos) > 2 or len(pos) == 0:
         return colored('INVALID INPUT: AT LEAST ONE AMINO ACID POSITION MUST BE GIVEN BUT A MAXIMUM OF TWO IS ALLOWED',
                        'red')
-    pos.extend([0] * (2 - len(pos)))```
+    pos.extend([0] * (2 - len(pos)))
