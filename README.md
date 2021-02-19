@@ -1,4 +1,4 @@
-![Website](https://img.shields.io/website?down_color=lightgrey&down_message=offline&up_color=green&up_message=online&url=http%3A%2F%2Fnotch1.tk%2F)
+![Website](https://img.shields.io/website?down_color=green&down_message=online&up_color=green&up_message=online&url=http%3A%2F%2Fnotch1.tk%2F)
 # NOTCH1 Mutation Caller Algorithm
 The mutation caller algorithm behind the notch1 mutation caller website.
 ## Dependencies
